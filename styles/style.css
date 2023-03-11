@@ -96,12 +96,12 @@ ul li a {
 .signup-image-container {
     border: 1px solid white;
     background-color: gray;
+    object-fit: cover;
     display: flex;
     height: 300px;
     width: 600px;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
     flex-shrink: 0;
     min-width: 300px;
     min-height: 150px;
@@ -123,8 +123,8 @@ ul li a {
     justify-content: center;
 }
 .main-container{
-    border: 1px dotted red;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     gap: 50px;
@@ -136,8 +136,7 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px dotted blue;
-    width: 100%;
+    width: 300px;
 
 
 }
@@ -148,8 +147,9 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1
-;
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
 }
 .main-container-text{
     margin: 10px;
