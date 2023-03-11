@@ -52,13 +52,19 @@ ul li a {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     flex: 1;
+    flex-wrap: wrap;
 
 
 }
 
-.signup-text {}
+.signup-text {
+
+    flex: 1;
+
+
+}
 
 .signup-text>h1 {
     font-size: 48px;
@@ -91,15 +97,36 @@ ul li a {
     border: 1px solid white;
     background-color: gray;
     display: flex;
-    flex-basis: 600px;
+    height: 300px;
+    width: 600px;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    flex-shrink: 0;
+    min-width: 300px;
+    min-height: 100px;
 }
 
 .main-content-section {
     background-color: #F9FAF8;
     color: #1F2937;
-    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-wrapper{
+    border: 1px solid red;
+    width: auto;
+    height: 500px;
+    display: flex;
+    gap: 50px;
+}
+.main-container{
+    background-color: black;
+    width: 100px;
+    height: 100px;
 
 }
 
