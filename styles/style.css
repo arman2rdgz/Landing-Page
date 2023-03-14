@@ -167,6 +167,7 @@ ul li a {
     display: flex;
     align-content: center;
     justify-content: center;
+    max-height: 40vh;
     flex: 1;
 
 }.quote-text{
